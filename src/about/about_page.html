@@ -4,6 +4,11 @@
 <head>
     <title>About</title>
     <link rel="stylesheet" type="text/css" href="theme.css" />
+    <style>
+        #fullpage {
+            border="none";
+        }
+    </style>
 </head>
 
 <body>
@@ -13,7 +18,23 @@
             <div class="container">
                 <div class="row">
                     <div class="column">
-                        <div class="fullPage-about-logo"></div>
+                        <svg width="40px" height="40px" viewBox="36 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <desc>Created with Sketch.</desc>
+                            <defs>
+                                <path d="M0,35.0016655 C0,33.3438914 1.34230941,32 3.0065012,32 L36.9934988,32 C38.6539436,32 40,33.3390201 40,35.0016655 L40,36.9983345 C40,38.6561086 38.6576906,40 36.9934988,40 L3.0065012,40 C1.34605644,40 0,38.6609799 0,36.9983345 L0,35.0016655 Z M0,2.80001787 C0,1.2536107 1.34230941,0 3.0065012,0 L36.9934988,0 C38.6539436,0 40,1.25749733 40,2.80001787 L40,25.1999821 C40,26.7463893 38.6576906,28 36.9934988,28 L3.0065012,28 C1.34605644,28 0,26.7425027 0,25.1999821 L0,2.80001787 Z M4,4.99180311 C4,4.44404538 4.45236206,4 4.99278641,4 L35.0072136,4 C35.5555144,4 36,4.45530558 36,4.99180311 L36,23.0081969 C36,23.5559546 35.5476379,24 35.0072136,24 L4.99278641,24 C4.44448561,24 4,23.5446944 4,23.0081969 L4,4.99180311 Z M7,19 L7,21 L9,21 L9,19 L9,9 L9,7 L7,7 L7,9 L7,19 Z" id="path-1"></path>
+                                <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+                                    <stop stop-color="#FAAE4A" offset="0%"></stop>
+                                    <stop stop-color="#F27624" offset="100%"></stop>
+                                </linearGradient>
+                            </defs>
+                            <g id="Command-Palette-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(36.000000, 0.000000)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use id="Mask" fill-opacity="0.8" fill="#F27624" xlink:href="#path-1"></use>
+                                <rect id="Mask" fill="url(#linearGradient-3)" mask="url(#mask-2)" x="0" y="0" width="40" height="40"></rect>
+                            </g>
+                        </svg>
                         <p class="header">Welcome to the JupyterLab pre-alpha preview</p>
                         <div class="desc-one">
                             <p>Click on the JupyterLab tab for the initial JupyterLab screen.</p>
@@ -77,50 +98,50 @@
             </div>
             <a href="#main-area">
               <div class="fullPage-about-next-arrow-sprite"></div>
-            </a>
-        </div>
-        <div class="section">
-            <p class="header content"><img src="images/main-area.svg" alt="Main Area logo" align="middle">Main Area</p>
-            <img class="content-img" src="images/mainareascreen.gif" alt="Main Area Screenshot">
-            <p class="content-desc">The main area is divided into panels of tabs. Drag a tab around the area to split the main area in different ways. Drag a tab to the center of a panel to move a tab without splitting the panel (in this case, the whole panel will highlight instead of just a portion).</p>
-            <p class="content-desc">Resize panels by dragging their borders (be aware that panels and sidebars also have a minimum width). A file that contains changes to be saved has a circle for a close icon.</p>
-            <a href="#command">
-              <img class="nav-button" src="images/next-arrow-sprite.svg">
-            </a>
-        </div>
-        <div class="section">
-            <p class="header content"><img src="images/command.svg" alt="Command Palette logo" align="middle">Command Palette</p>
-            <img class="content-img" src="images/mainareascreen.gif" alt="Command Palette Screenshot">
-            <p class="content-desc">Clicking the "Commands" tab, located on the left, will toggle the command palette. Execute a command by clicking, or navigating with your arrow keys and pressing Enter. Filter commands by typing in the text box at the top of the palette. The palette is organized into categories, and you can filter on a single category by clicking on the category header or by typing the header surrounded by colons in the search input (e.g., <code>:file:</code>).</p>
-            <div class="content-desc">
-                <p>You can try these things out from the command palette:</p>
-                <ul>
-                    <li>Open a new terminal (requires OS X or Linux)</li>
-                    <li>Open a ipython console</li>
-                    <li>Open a new file</li>
-                    <li>Save a file</li>
-                    <li>Open up a help panel on the right</li>
-                </ul>
-            </div>
-            <a href="#file-browser">
-              <img class="nav-button" src="images/next-arrow-sprite.svg">
-            </a>
-        </div>
-        <div class="section">
-            <p class="header content"><img src="images/file-browser.svg" alt="File Browser logo" align="middle">File Browser</p>
-            <img class="content-img" src="images/mainareascreen.gif" alt="File Browser Screenshot">
-            <p class="content-desc">Clicking the "Files" tab, located on the left, will toggle the file browser. Navigate into directories by double-clicking, and use the breadcrumbs at the top to navigate out. Create a new file/directory by clicking the plus icon at the top. Click the middle icon to upload files, and click the last icon to reload the file listing. Drag and drop files to move them to subdirectories. Click on a selected file to rename it. Sort the list by clicking on a column header. Open a file by double-clicking it or dragging it into the main area. Opening an image displays the image. Opening a code file opens a code editor. Opening a notebook opens a very preliminary notebook component.</p>
-            <a href="#notebook">
-              <img class="nav-button" src="images/next-arrow-sprite.svg">
-            </a>
-        </div>
-        <div class="section">
-            <p class="header content"><img src="images/notebook.svg" alt="Notebook logo" align="middle">Notebook</p>
-            <img class="content-img" src="images/mainareascreen.gif" alt="Notebook Screenshot">
-            <p class="content-desc">Opening a notebook will open a minimally-featured notebook. Code execution, Markdown rendering, and basic cell toolbar actions are supported. Future versions will add more features from the existing Jupyter notebook.</p>
-        </div>
-
+          </a>
+      </div>
+      <div class="section">
+        <p class="header content"><img src="images/main-area.svg" alt="Main Area logo" align="middle">Main Area</p>
+        <img class="content-img" src="images/mainareascreen.gif" alt="Main Area Screenshot">
+        <p class="content-desc">The main area is divided into panels of tabs. Drag a tab around the area to split the main area in different ways. Drag a tab to the center of a panel to move a tab without splitting the panel (in this case, the whole panel will highlight instead of just a portion).</p>
+        <p class="content-desc">Resize panels by dragging their borders (be aware that panels and sidebars also have a minimum width). A file that contains changes to be saved has a circle for a close icon.</p>
+        <a href="#command">
+          <img class="nav-button" src="images/next-arrow-sprite.svg">
+      </a>
+  </div>
+  <div class="section">
+    <p class="header content"><img src="images/command.svg" alt="Command Palette logo" align="middle">Command Palette</p>
+    <img class="content-img" src="images/mainareascreen.gif" alt="Command Palette Screenshot">
+    <p class="content-desc">Clicking the "Commands" tab, located on the left, will toggle the command palette. Execute a command by clicking, or navigating with your arrow keys and pressing Enter. Filter commands by typing in the text box at the top of the palette. The palette is organized into categories, and you can filter on a single category by clicking on the category header or by typing the header surrounded by colons in the search input (e.g., <code>:file:</code>).</p>
+    <div class="content-desc">
+        <p>You can try these things out from the command palette:</p>
+        <ul>
+            <li>Open a new terminal (requires OS X or Linux)</li>
+            <li>Open a ipython console</li>
+            <li>Open a new file</li>
+            <li>Save a file</li>
+            <li>Open up a help panel on the right</li>
+        </ul>
     </div>
+    <a href="#file-browser">
+      <img class="nav-button" src="images/next-arrow-sprite.svg">
+  </a>
+</div>
+<div class="section">
+    <p class="header content"><img src="images/file-browser.svg" alt="File Browser logo" align="middle">File Browser</p>
+    <img class="content-img" src="images/mainareascreen.gif" alt="File Browser Screenshot">
+    <p class="content-desc">Clicking the "Files" tab, located on the left, will toggle the file browser. Navigate into directories by double-clicking, and use the breadcrumbs at the top to navigate out. Create a new file/directory by clicking the plus icon at the top. Click the middle icon to upload files, and click the last icon to reload the file listing. Drag and drop files to move them to subdirectories. Click on a selected file to rename it. Sort the list by clicking on a column header. Open a file by double-clicking it or dragging it into the main area. Opening an image displays the image. Opening a code file opens a code editor. Opening a notebook opens a very preliminary notebook component.</p>
+    <a href="#notebook">
+      <img class="nav-button" src="images/next-arrow-sprite.svg">
+  </a>
+</div>
+<div class="section">
+    <p class="header content"><img src="images/notebook.svg" alt="Notebook logo" align="middle">Notebook</p>
+    <img class="content-img" src="images/mainareascreen.gif" alt="Notebook Screenshot">
+    <p class="content-desc">Opening a notebook will open a minimally-featured notebook. Code execution, Markdown rendering, and basic cell toolbar actions are supported. Future versions will add more features from the existing Jupyter notebook.</p>
+</div>
+
+</div>
 </body>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
