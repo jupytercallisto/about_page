@@ -34,6 +34,7 @@ module.exports = {
     ]
   },
   externals: {
+    jquery: 'jQuery',
     jquery: '$',
     'jquery-ui': '$'
   }
