@@ -2,3 +2,41 @@
 	overflow-y: hidden !important;
 	border: none;
 }
+
+.fullPage-about-command {
+	background-image: url(images/command.svg);
+}
+
+.fullPage-about-file-browser {
+	background-image: url(images/file-browser.svg);
+}
+
+.fullPage-about-logo {
+	background-image: url(images/logo.svg);
+}
+
+.fullPage-about-main-area1 {
+	background-image: url(images/main-area.svg);
+}
+
+.fullPage-about-main-area2 {
+	background-image: url(images/mainarea.svg);
+}
+
+.fullPage-about-next-arrow-sprite {
+	background-image: url(images/next-arrow-sprite.svg);
+}
+
+.fullPage-about-next-arrow {
+	background-image: url(images/next-arrow.svg);
+}
+
+.fullPage-about-notebook {
+	background-image: url(images/notebook.svg);
+}
+
+/*
+.fullPage-about-main-area-gif1 {
+	background-image: url(images/mainareascreen.gif);
+}
+*/

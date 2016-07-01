@@ -4,6 +4,7 @@
 |----------------------------------------------------------------------------*/
 @import url('~jupyterlab/lib/notebook/index.css');
 @import url('~jupyterlab/lib/notebook/theme.css');
+@import url('~jupyterlab/lib/about/theme.css');
 @import url('~jupyterlab/lib/index.css');
 @import url('~jupyterlab/lib/theme.css');
 @import './commandpalette.css';
