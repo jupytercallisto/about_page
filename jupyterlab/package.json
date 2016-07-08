@@ -10,7 +10,8 @@
     "font-awesome": "^4.6.1",
     "jupyter-js-services": "^0.12.5",
     "jupyterlab": "file:../",
-    "phosphide": "^0.9.5"
+    "phosphide": "^0.9.5",
+    "scrollsnap-polyfill": "^0.1.0"
   },
   "devDependencies": {
     "css-loader": "^0.23.1",
